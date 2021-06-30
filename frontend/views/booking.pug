@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    style 
+        include ./booking.css
+</head>
+<body>
+    <nav id="navbar">
+        <ul id="details">
+            <li><a href="/">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+        <ul id="reg">
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
+        </ul>
+    </nav>
+
+
+
+<div class="time">
+    <ul>
+        <li class="booktime" id="time1">
+            <form action="/book" method="post">
+                <input id="searchmethod" name="searchmethod" type="hidden" />
+                <button id="btn" name="five" value="5" type="submit">5.30PM</button>
+            </form>
+        </li>
+        <li class="booktime" id="time2">
+            <form action="/book" method="post">
+                <button id="btn" name="six" type="submit" value="6">6.30PM</button>
+            </form>
+        </li>
+        <li class="booktime" id="time3">
+            <form action="/book" method="post">
+                <button id="btn"  name="seven" value="7" type="submit">7.30 PM</button>
+            </form>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

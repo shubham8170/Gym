@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#navbar{
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    background: black;
+    opacity: 0.6;
+}
+
+#details{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+#details a{
+    
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 1rem;
+}
+
+#details a:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+#reg{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    position: absolute;
+    right: 3rem;
+}
+#reg a{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+#reg a:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+
+/* body */
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.time{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 40vw;
+    height: 30vh; */
+    background: white;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border :2px solid black;
+    border-radius: 6px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+    
+    width: 30vw;
+}
+.time li{
+    margin: 1.5rem;
+}
+
+
+
+#btn{
+    /* position: absolute; */
+    bottom: 1rem;
+    border: 2px solid black;
+    display: block;
+    /* margin: auto; */
+    font-size: 1.12rem;
+    border-radius: 00.5rem;
+    padding: 0.5rem;
+    background: black;
+    color: white;
+
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

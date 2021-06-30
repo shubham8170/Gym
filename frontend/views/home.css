@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#navbar{
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    background: black;
+    opacity: 0.6;
+}
+
+#details{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+#details a{
+    
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 1rem;
+}
+
+#details a:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+#reg{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    position: absolute;
+    right: 3rem;
+}
+#reg a{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+#reg a:hover{
+    background-color: white;
+    color: black;
+   
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+
+
+
+/* body styling */
+#body{
+    /* /* width: 100vw; */
+    height: 70vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background: url('../static/logo.jpg')center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    /* font-size: 65px; */
+
+}
+#body p{
+    display: flex;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 1rem; */
+}
+#firsttext{
+    font-size: 3rem;
+    font-family: 'Orelega One', cursive;    
+
+}
+
+#mintext{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+
+/* workout */
+
+
+#workout h4{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+
+}
+
+#workout{
+   
+   
+   display: flex;
+   flex-direction: column;
+   /* height: inherit; */
+  
+   
+   
+
+}
+#excesice{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+#first{
+    border: 2px solid red;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    background: rgba(237, 240, 211, 0.466);
+   
+}
+#second{
+    border: 2px solid red;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    background: rgba(237, 240, 211, 0.466);
+
+}
+#third{
+    border: 2px solid red;
+    width: 15rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    background: rgba(237, 240, 211, 0.466);
+
+
+}
